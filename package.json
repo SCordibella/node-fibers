@@ -8,7 +8,7 @@
 	"author": "Marcel Laverdet <marcel@laverdet.com> (https://github.com/laverdet/)",
 	"main": "fibers",
 	"scripts": {
-		"install": "node build.js || nodejs build.js",
+		"install": "node -f build.js || nodejs build.js",
 		"test": "node test.js || nodejs test.js"
 	},
 	"repository": {
